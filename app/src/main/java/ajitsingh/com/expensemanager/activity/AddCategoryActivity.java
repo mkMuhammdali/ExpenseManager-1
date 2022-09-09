@@ -34,7 +34,8 @@ public class AddCategoryActivity extends FragmentActivity implements AddCategory
     expenseDatabaseHelper.close();
     finishActivity(ADD_NEW_CAT);
   }
-
+//git branch -m <old_name> <new_name>
+  //git push <remote> --delete <old_name>
   @Override
   public String getCategory() {
     TextView categoryInput = (TextView) findViewById(R.id.category);
